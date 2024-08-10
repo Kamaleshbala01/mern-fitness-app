@@ -1,0 +1,13 @@
+const express = require('express');
+const cors = require('cors');
+const parser = require("body-parser");
+const userRouter = require('./router/userRouter');
+const workoutRouter = require('./router/workoutRouter');
+const detailsRouter = require("./router/detailsRouter");
+const app = express();
+app.use(cors());
+app.use(parser.json());
+app.use('/',userRouter);
+app.use('/',workoutRouter);
+app.use('/',detailsRouter);
+module.exports = app;

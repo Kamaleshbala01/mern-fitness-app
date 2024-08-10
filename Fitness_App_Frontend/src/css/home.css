@@ -1,0 +1,148 @@
+.homeNav{
+    background-color: rgb(151, 148, 148);
+    height: 80px;
+    position: fixed;
+    z-index: 3;
+    width: 99%;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.homeLoginDiv{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.homeLoginUser{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.homeLogin,.homeSignup{
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+.homeLogin{
+    background-color: rgb(234, 234, 234);
+    color: rgb(28, 28, 255);
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+.homeSignup{
+    background-color:rgb(28, 28, 255);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.headNav{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+}
+.navContent{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+}
+.content{
+     text-decoration: none;
+     color: white;
+     height:fit-content;
+     margin-left: 20px;
+     font-size: 25px;
+}
+.content:hover{
+     text-shadow: 1px 1px black;
+   
+}
+.testmain {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 99%;
+}
+.homeWorkout{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.testmain::-webkit-scrollbar{
+    display: none;
+}
+.challengeHead{
+    text-align: start;
+    margin-top: 80px;
+    margin-left: 20px;
+    color: black;
+}
+.chalangeImg{
+    height: 150px;
+    width: 80px;
+    border-top-right-radius: 10px;
+}
+.headChallenge{
+    align-self: start;
+    padding-right: 200px;
+    padding-left: 20px;
+}
+.test {
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: rgb(149, 149, 149);
+}
+.challengeDesc{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 130px;
+    height: 50px;
+}
+.challengeBtn{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+    font-weight: 200;
+}
+.aTag{
+    width: 48%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5PX;
+}
+.beginner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.begineerHead{
+    padding-top: 40px;
+}
+.logoutBtn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
